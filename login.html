@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gita's Collection</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@400;500;600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.8.55/css/materialdesignicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.8.55/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -18,26 +16,27 @@
     <div class="login-holder px-4">
 
         <div class="container">
-            <div class="logo py-5">
+            <div class="logo py-4">
                 <img src="assets/img/logo.svg" class="img-fluid logo" alt="">
             </div>
-            <div class="form-header text-primary-light">
-                <p class="h1">Welecome</p>
+            <div class="form-header text-primary-light mb-5">
+                <p class="greeting">Welecome</p>
                 <p>Sign in to continue</p>
             </div>
             <div class="input">
-                <form action="">
+                <form action="" autocomplete="off">
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
-                      </div>
-                      <div class="form-floating">
+                        <input type="email" class="form-control form-control-sm" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput" class="text-primary-light">Email address</label>
+                    </div>
+                    <div class="form-floating">
                         <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                        <label for="floatingPassword">Password</label>
-                      </div>
-                    <div class="button mt-3 d-flex justify-content-center ">
-                        <button type="submit" class="border-0 bg-transparent text-primary-light"> Login</button>
-                         </div>
+                        <label for="floatingPassword" class="text-primary-light">Password</label>
+                    </div>
+                    <div class="form-submit my-4">
+                        <button type="submit" class="button border-0 text-primary-light">Login</button>
+                    </div>
+                    <p class="text-primary-light text-center">Don't have an account? <a href="" class="text-decoration-none text-primary-light font-weight-bold">Register here</a></p>
                 </form>
             </div>
         </div>
@@ -47,4 +46,5 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
