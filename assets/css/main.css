@@ -117,7 +117,8 @@ body {
     background: linear-gradient(180deg, #996515 0%, #FFCC00 52.6%, #996515 100%);
 }
 
-.category-item-holder {
+.category-item-holder,
+.product-showcase {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -162,6 +163,20 @@ body {
 .form-check-input:checked {
     background-color: var(--primary);
     border-color: var(--primary);
+}
+
+.product-showcase .card {
+    background-color: var(--card-background);
+    border-radius: 20px;
+}
+
+.product-showcase .card .button {
+    background-color: #B8860B;
+    text-transform: uppercase;
+}
+
+.product-showcase .card .product-image {
+    padding: 10px;
 }
 
 
