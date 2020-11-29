@@ -6,6 +6,7 @@
     --card-background: #333333;
     --dark-200: #272727;
     --dark: #212121;
+    --light-50: rgba(255,255,255,0.15);
     --base-font: 'Cinzel', serif;
     --heading-font: 'Cinzel Decorative', cursive;
 }
@@ -15,7 +16,10 @@ body {
     font-size: 1rem;
     font-weight: 400;
 }
-
+.text-primary-light
+{
+    color: var(--primary-light) !important;
+}
 .button {
     border: 0;
     background-color: var(--primary);
@@ -96,4 +100,19 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
+}
+
+/* rahul */
+.login-holder .logo
+{
+    max-width: 150px;
+}
+.login-holder .input-holder
+{
+    background-color: var(--light-50);
+}
+
+.login-holder .input-group input:focus
+{
+    outline: 0;
 }
