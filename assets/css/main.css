@@ -1,6 +1,7 @@
 :root {
     --primary: #845916;
     --primary-light: #d4af37;
+    --primary-600: #B8860B;
     --primary-dark: #996515;
     --dark-300: #3A3A3A;
     --card-background: #333333;
@@ -43,9 +44,9 @@ body {
 
 .button {
     border: 0;
-    background-color: var(--primary);
+    background-color: var(--primary-600);
     padding: .6rem 1.2rem;
-    color: #ffffff;
+    color: #ffffff !important;
     border-radius: 3rem;
     text-transform: capitalize;
     font-size: .8rem;
@@ -102,7 +103,7 @@ body {
 .nav-link.active,
 .nav-link:active,
 .nav-link:hover {
-    color: var(--primary) !important;
+    color: var(--primary-600) !important;
 }
 
 .search-button {
@@ -171,7 +172,7 @@ body {
 }
 
 .product-showcase .card .button {
-    background-color: #B8860B;
+    background-color: var(--primary-600);
     text-transform: uppercase;
 }
 
