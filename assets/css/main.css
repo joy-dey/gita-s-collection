@@ -151,6 +151,19 @@ body {
     font-weight: 500;
 }
 
+.form-check-input {
+    border: 0;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.form-check-input:checked {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
 
 /* rahul */
 
