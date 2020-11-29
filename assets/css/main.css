@@ -186,3 +186,9 @@ body {
 .login-holder .logo {
     max-width: 150px;
 }
+.list-group-item {
+    background-color: var(--card-background) !important;
+}
+img.img-fluid.rounded-circle{
+    background-color:var(--primary-600);
+}
