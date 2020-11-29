@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gita's Collection</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.8.55/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="bg-dark">
+    <div class="header py-3">
+        <div class="container d-flex align-items-center">
+            <button class="btn btn-link text-decoration-none text-primary-light">
+                <i class="mdi mdi-chevron-left"></i>
+            </button>
+            <p class="h5 text-primary-light m-0 small">Category</p>
+        </div>
+    </div>
+
+
+    <div class="footer-nav fixed-bottom">
+        <div class="container">
+            <ul class="navbar p-0 mb-0">
+                <li class="navbar-items">
+                    <a href="#" class="nav-link active">
+                        <i class="mdi mdi-home-variant"></i>
+                    </a>
+                </li>
+                <li class="navbar-items">
+                    <a href="#" class="nav-link">
+                        <i class="mdi mdi-collage"></i>
+                    </a>
+                </li>
+                <li class="navbar-items search-button">
+                    <a href="#" class="nav-link ">
+                        <i class="mdi mdi-magnify"></i>
+                    </a>
+                </li>
+                <li class="navbar-items">
+                    <a href="#" class="nav-link">
+                        <i class="mdi mdi-cart"></i>
+                    </a>
+                </li>
+                <li class="navbar-items">
+                    <a href="#" class="nav-link">
+                        <i class="mdi mdi-account-circle"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
