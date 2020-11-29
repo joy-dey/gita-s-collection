@@ -27,23 +27,14 @@
             </div>
             <div class="input">
                 <form action="">
-                    <div class="input-holder rounded px-2">
-                        <span class="text-uppercase small text-primary-light">username</span>
-                        <div class="input-group">
-                            <i class="mdi mdi-email"></i>
-                            <input type="text" name="" id="username" class="border-0 bg-transparent text-white">
-
-                        </div>
-                    </div>
-                    <div class="input-holder mt-4 rounded px-2 ">
-                        <span class="text-uppercase small text-primary-light">Password</span>
-                        <div class="input-group">
-                            <i class="mdi mdi-lock"></i>
-                            <input type="password" name="" id="password" class="border-0 bg-transparent text-white">
-
-                        </div>
-                       
-                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
                     <div class="button mt-3 d-flex justify-content-center ">
                         <button type="submit" class="border-0 bg-transparent text-primary-light"> Login</button>
                          </div>
