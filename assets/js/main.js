@@ -27,6 +27,6 @@ shareProduct.forEach((prd, index) => {
         let getName = `${productName[index].innerText}`,
             message = `Hey I have recently found this beautiful product named ${getName} by Geeta's Collection at ${currentPage}`,
             urlMessage = message.replace(/ /g, '%20').replace(':', '%3A').replaceAll('/', '%2F');
-        alert(`https://api.whatsapp.com/send?text=${urlMessage}`);
+        location.href = `https://api.whatsapp.com/send?text=${urlMessage}`;
     })
 });

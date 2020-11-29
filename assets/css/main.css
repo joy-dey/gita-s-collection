@@ -194,15 +194,31 @@ body {
     right: 20px;
 }
 
+.product-showcase .share .mdi {
+    user-select: none;
+    pointer-events: none;
+}
+
+.profile .edit-profile {
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 50%;
+    bottom: 0;
+    right: 40%;
+}
+
 
 /* rahul */
 
 .login-holder .logo {
     max-width: 150px;
 }
+
 .list-group-item {
     background-color: var(--card-background) !important;
 }
-img.img-fluid.rounded-circle{
-    background-color:var(--primary-600);
+
+img.img-fluid.rounded-circle {
+    background-color: var(--primary-600);
 }
