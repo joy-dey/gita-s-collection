@@ -241,7 +241,26 @@ button.order:focus{
     
 }
 button.order{
-    width: 39px;
+    padding: 2rem;
     border: 0;
     
 }
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    border-color: 0;
+
+}
+.card-bg{
+    background-color: var(--card-background);
+}
+ .btn:focus {
+    box-shadow: none;
+ }
+ .opacity-8{
+     opacity: .8;
+ }
+ div.sucess-container{
+    padding-bottom: 1.5rem !important;
+ }
+ button.home-btn{
+    background-color: var(--dark-300);
+ }
