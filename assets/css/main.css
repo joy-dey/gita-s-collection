@@ -73,6 +73,9 @@ body {
 .bg-dark {
     background-color: var(--dark) !important;
 }
+.bg-card-background{
+    background-color: var(--card-background);
+}
 
 .slick-prev,
 .slick-next {
@@ -221,4 +224,24 @@ body {
 
 img.img-fluid.rounded-circle {
     background-color: var(--primary-600);
+}
+img.img-fluid.history{
+    max-width: 64%;
+}
+.order-details p{
+    font-size: .8rem;
+}
+button.order:focus{
+    outline: 0;
+    border: 0;
+}
+.button.order:active{
+    outline: 0;
+    border:0
+    
+}
+button.order{
+    width: 39px;
+    border: 0;
+    
 }
