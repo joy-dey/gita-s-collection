@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gita's Collection</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.8.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="bg-dark">
+  <div class="header py-3">
+    <div class="container d-flex align-items-center">
+      <button class="btn btn-link text-decoration-none text-primary-light" data-back>
+        <i class="mdi mdi-chevron-left"></i>
+      </button>
+      <p class="h5 text-primary-light m-0 small">My cart</p>
+    </div>
+  </div>
+  <div class="mycart-container">
+    <div class="py-3 bg-card-background">
+      <p class="text-primary-light mb-0 p-2">Deliver to agartala-799001</p>
+    </div>
+    <div class="card bg-card-background border-0 my-3">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-8 ">
+            <p class="h5 text-primary-light text-truncate">Ring for marriageasdasads</p>
+            <p class="cartdetails text-primary-light  opacity-8 mb-0 text-small">Golden,for jewellery</p>
+            <p class="cartdetails text-primary-light   opacity-8 text-small">Seller: Geeta's Collection</p>
+            <span>
+              <p class=" h1 cartdetails text-primary-light  mb-0">200$</p>
+              <p class="cartdetails text-primary-light opacity-8">Delivery in 2 days</p>
+            </span>
+
+          </div>
+          <div class="col-4 text-center">
+            <img src="assets/img/ring.svg " class="img-fluid " alt="">
+          </div>
+        </div>
+      </div>
+      <hr class="text-primary-light">
+      <button class="mycart button "> <i class="mdi mdi-trash-can"></i></button>
+    </div>
+
+    <div class="container mt-3 text-primary-light ">
+      <div class="card border-0 bg-card-background">
+        <div class="card-header">
+          <p class="mb-0 font-weight-bold small">Price Details</p>
+        </div>
+        <div class="card-body">
+          <div class="d-flex justify-content-between mb-2">
+            <p class="mb-0">Items Total</p>
+            <p class="mb-0" id="totalPrice">₹ 200</p>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <p class="mb-0">Discount</p>
+            <p class="mb-0 text-primary-light" id="discNum">- ₹ 0</p>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <p class="mb-0">Delivery Charges</p>
+            <p class="mb-0" id="dlvCharge">₹ 15.00</p>
+          </div>
+        </div>
+        <div class="card-footer ">
+          <div class="d-flex justify-content-between mb-2">
+            <p class="mb-0 font-weight-bold">Total</p>
+            <p class="mb-0 font-weight-bold" id="grndPrice">₹ 215</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container mt-3">
+      <div class=" text-primary-light text-center" role="alert">
+        <span class="small">Delivery Charge of <span id="delCharge">₹15</span> is applied.</span>
+      </div>
+      <button class="cart button btn-block fixed-button" type="button">
+        Continue
+      </button>
+    </div>
+  </div>
+
+  <!-- scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

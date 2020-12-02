@@ -267,3 +267,26 @@ button.order{
  .h-100vh{
      height:100vh!important;
  }
+ div.cart-container{
+    
+
+    padding-left: 15px
+ }
+ div.main-cart{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ .cardbody{
+     background-color:var(--card-background);
+ }
+.btn-block{
+    display: block;
+    width: 100%;
+}
+.fixed-button{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
