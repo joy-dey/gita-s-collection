@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gita's Collection</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.8.55/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="bg-dark">
+    <div class="header py-3">
+        <div class="container d-flex align-items-center">
+            <button class="btn btn-link text-decoration-none text-primary-light" data-back>
+                <i class="mdi mdi-chevron-left"></i>
+            </button>
+            <p class="h5 text-primary-light m-0 small">Edit Profile</p>
+        </div>
+    </div>
+
+    <div class="edit-profile-holder mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="form-floating my-3">
+                        <input type="text" class="form-control form-control-sm" id="name" placeholder="your name here">
+                        <label for="name" class="text-primary-light">Name</label>
+                    </div>
+                    <div class="form-floating my-3">
+                        <input type="email" class="form-control form-control-sm" id="email" placeholder="your email here" inputmode="email">
+                        <label for="email" class="text-primary-light">Email</label>
+                    </div>
+                </div>
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <img src="assets/img/avatar.webp" alt="" class="img-fluid bg-primary rounded-circle" id="showAvatar">
+                    <div class="input-holder">
+                        <input type="file" name="" id="file" accept="image/*">
+                        <label for="file">
+                            <i class="mdi mdi-upload"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-floating my-3">
+                <input type="text" class="form-control form-control-sm" id="adddress" placeholder="your address here">
+                <label for="address" class="text-primary-light">Address</label>
+            </div>
+            <div class="form-floating my-3">
+                <input type="text" class="form-control form-control-sm" id="state" placeholder="your state here">
+                <label for="state" class="text-primary-light">State</label>
+            </div>
+            <div class="form-floating my-3">
+                <input type="tel" class="form-control form-control-sm" id="phno" placeholder="your phone here" inputmode="tel">
+                <label for="phno" class="text-primary-light">Phone Number</label>
+            </div>
+            <div class="form-floating my-3">
+                <input type="text" class="form-control form-control-sm" id="pin" placeholder="your pin here">
+                <label for="pin" class="text-primary-light">PIN Code</label>
+            </div>
+            <div class="button-holder text-center mt-5">
+                <button class="button py-3 px-5">Update Profile</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

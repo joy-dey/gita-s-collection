@@ -38,8 +38,17 @@ body {
     font-weight: 400;
 }
 
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
 .text-primary-light {
     color: var(--primary-light) !important;
+}
+
+.edit-profile .input-holder #file {
+    display: none;
+    appearance: none;
 }
 
 .button {
@@ -73,7 +82,8 @@ body {
 .bg-dark {
     background-color: var(--dark) !important;
 }
-.bg-card-background{
+
+.bg-card-background {
     background-color: var(--card-background);
 }
 
@@ -222,71 +232,89 @@ body {
     background-color: var(--card-background) !important;
 }
 
-img.img-fluid.rounded-circle {
+.profile img.img-fluid.rounded-circle {
     background-color: var(--primary-600);
 }
-img.img-fluid.history{
+
+img.img-fluid.history {
     max-width: 64%;
 }
-.order-details p{
+
+.order-details p {
     font-size: .8rem;
 }
-button.order:focus{
+
+button.order:focus {
     outline: 0;
     border: 0;
 }
-.button.order:active{
+
+.button.order:active {
     outline: 0;
-    border:0
-    
+    border: 0
 }
-button.order{
+
+button.order {
     padding: 2rem;
     border: 0;
-    
 }
-.btn-check:focus+.btn-primary, .btn-primary:focus {
-    border-color: 0;
 
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    border-color: 0;
 }
-.card-bg{
+
+.card-bg {
     background-color: var(--card-background);
 }
- .btn:focus {
-    box-shadow: none;
- }
- .opacity-8{
-     opacity: .8;
- }
- div.sucess-container{
-    padding-bottom: 1.5rem !important;
- }
- button.home-btn{
-    background-color: var(--dark-300);
- }
- .h-100vh{
-     height:100vh!important;
- }
- div.cart-container{
-    
 
+.btn:focus {
+    box-shadow: none;
+}
+
+.opacity-8 {
+    opacity: .8;
+}
+
+div.sucess-container {
+    padding-bottom: 1.5rem !important;
+}
+
+button.home-btn {
+    background-color: var(--dark-300);
+    <<<<<<< Updated upstream
+}
+
+.h-100vh {
+    height: 100vh!important;
+}
+
+div.cart-container {
     padding-left: 15px
- }
- div.main-cart{
+}
+
+div.main-cart {
     padding-left: 15px;
     padding-right: 15px;
 }
- .cardbody{
-     background-color:var(--card-background);
- }
-.btn-block{
+
+.cardbody {
+    background-color: var(--card-background);
+}
+
+.btn-block {
     display: block;
     width: 100%;
 }
-.fixed-button{
+
+.fixed-button {
     position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
     z-index: 1030;
+}
+
+.h-100vh {
+    height: 100vh!important;
 }
