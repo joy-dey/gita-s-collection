@@ -21,15 +21,15 @@
         </div>
     </div>
     <div class="banner-slider container my-4">
-        <img src="assets/img/banner1.svg" alt="" class="img-fluid">
+        <img src="assets/img/banner1.svg" alt="" class="img-fluid" >
         <img src="assets/img/banner2.svg" alt="" class="img-fluid">
         <img src="assets/img/banner3.svg" alt="" class="img-fluid">
     </div>
     <div class="category-select">
         <div class="container w-100">
             <div class="category-item-holder">
-                <img src="assets/img/jewelleryCollection.svg" alt="" class="img-fluid">
-                <img src="assets/img/dressCollection.svg" alt="" class="img-fluid">
+                <img src="assets/img/jewelleryCollection.svg" alt="" class="img-fluid" onclick="location.href = 'category.html'">
+                <img src="assets/img/dressCollection.svg" alt="" class="img-fluid" onclick="location.href = 'category.html'">
             </div>
         </div>
     </div>
@@ -38,26 +38,37 @@
         <div class="container">
             <div class="product-col-header d-flex justify-content-between align-items-center">
                 <p class="font-weight-bold text-capitalize text-primary-light m-0">Latest Items</p>
-                <a href="#" class="text-primary-light text-decoration-none small text-capitalize">more 
+                <a href="#" class="text-primary-light text-decoration-none small text-capitalize" onclick="location.href = 'category.html'">more 
                     <i class="mdi mdi-arrow-right"></i></a>
             </div>
             <div class="product-showcase mt-5">
-                <div class="card">
-                    <div class="product-image text-center">
+                <div class="card" data-product>
+                    <div class="product-image text-center position-relative">
                         <img src="assets/img/kurta.svg" alt="" class="img-fluid">
+                        <button class="share" data-share>
+                            <i class="mdi mdi-share"></i>
+                        </button>
                     </div>
-                    <div class="card-body">
-                        <button class="button w-100">Add to cart</button>
+                    <div class="card-body text-primary-light pt-2">
+                        <p class="mb-2 text-capitalize text-truncate" data-productName>Kurta</p>
+                        <p class="h6 mt-0 mb-3" data-price>₹799.00</p>
+                        <button class="button w-100" onclick="location.href = 'cart.html'">Add to cart</button>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="product-image text-center">
+                <div class="card" data-product>
+                    <div class="product-image text-center position-relative">
                         <img src="assets/img/ring.svg" alt="" class="img-fluid">
+                        <button class="share" data-share>
+                            <i class="mdi mdi-share"></i>
+                        </button>
                     </div>
-                    <div class="card-body">
-                        <button class="button w-100">Add to cart</button>
+                    <div class="card-body text-primary-light pt-2">
+                        <p class="mb-2 text-capitalize" data-productName>silver Ring</p>
+                        <p class="h6 mt-0 mb-3" data-price>₹599.00</p>
+                        <button class="button w-100" onclick="location.href = 'cart.html'">Add to cart</button>
                     </div>
                 </div>
+              
             </div>
         </div>
     </div>
@@ -66,27 +77,27 @@
         <div class="container">
             <ul class="navbar p-0 mb-0">
                 <li class="navbar-items">
-                    <a href="#" class="nav-link active">
+                    <a href="main.html" class="nav-link active">
                         <i class="mdi mdi-home-variant"></i>
                     </a>
                 </li>
                 <li class="navbar-items">
-                    <a href="#" class="nav-link">
+                    <a href="main-category.html" class="nav-link">
                         <i class="mdi mdi-collage"></i>
                     </a>
                 </li>
                 <li class="navbar-items search-button">
-                    <a href="#" class="nav-link ">
+                    <a href="search-page.html" class="nav-link ">
                         <i class="mdi mdi-magnify"></i>
                     </a>
                 </li>
                 <li class="navbar-items">
-                    <a href="#" class="nav-link">
+                    <a href="cart.html" class="nav-link">
                         <i class="mdi mdi-cart"></i>
                     </a>
                 </li>
                 <li class="navbar-items">
-                    <a href="#" class="nav-link">
+                    <a href="profile.html" class="nav-link">
                         <i class="mdi mdi-account-circle"></i>
                     </a>
                 </li>
