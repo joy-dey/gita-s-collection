@@ -39,8 +39,9 @@ if (backButton) {
         history.back(-1);
     })
 }
-
-let nameArr = getAvatar.innerText.split(" "),
-    fname = nameArr[0].charAt(0),
-    lname = nameArr[1].charAt(0);
-showAvatar.innerText = `${fname}${lname}`;
+if (getAvatar) {
+    let nameArr = getAvatar.innerText.split(" "),
+        fname = nameArr[0].charAt(0),
+        lname = nameArr[1].charAt(0);
+    showAvatar.innerText = `${fname}${lname}`;
+}
