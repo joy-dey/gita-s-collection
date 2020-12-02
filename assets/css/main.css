@@ -368,3 +368,33 @@ button.searchplacebutton {
 .fs-6rem{
     font-size: 6rem;
 }
+.custom-control-inline {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-right: 1rem;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: var(--card-background);
+    opacity:1;
+}
+.form-floating>.form-control, .form-floating>.form-select {
+background-color: var(--card-background);
+color: var(--primary-light);
+}
+.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
+box-shadow: none;
+border-color: 0;
+}
+.form-control:focus{
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+ 
+}
+.form-control:active{
+    border: 0;
+}
+.form-control{
+    border: 0;
+}
+
