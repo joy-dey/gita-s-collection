@@ -1,10 +1,11 @@
-let currentLocation = location.pathname,
-    currentPage = location.href,
+let currentPage = location.href,
     passwordInput = document.querySelector('#pwd'),
+    loadingPage = document.querySelector('#loading-screen'),
+    backButton = document.querySelector('[data-back]'),
     showPass = document.querySelector('#showPass');
 setTimeout(() => {
-    if (currentLocation === '/index.html' || currentLocation === '/') {
-        window.location.href = 'main.html'
+    if (loadingPage) {
+        window.location.href = 'main.html';
     }
 }, 3000);
 
@@ -30,3 +31,9 @@ shareProduct.forEach((prd, index) => {
         location.href = `https://api.whatsapp.com/send?text=${urlMessage}`;
     })
 });
+// back button
+if (backButton) {
+    backButton.addEventListener('click', () => {
+        history.back(-1);
+    })
+}
