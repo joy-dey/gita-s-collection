@@ -282,7 +282,7 @@ div.sucess-container {
 
 button.home-btn {
     background-color: var(--dark-300);
-    <<<<<<< Updated upstream
+
 }
 
 .h-100vh {
@@ -314,7 +314,17 @@ div.main-cart {
     left: 0;
     z-index: 1030;
 }
-
-.h-100vh {
-    height: 100vh!important;
+.searchplace:focus{
+    background-color:var(--card-background);
+    outline:0;
+    border: 0;
+    box-shadow:none;
+}
+button.searchplacebutton{
+    display: flex;
+    border-radius: 200px; 
+    width: 20px;
+     height: 30px;
+      align-items: center;
+      justify-content: center;
 }
