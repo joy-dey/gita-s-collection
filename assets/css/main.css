@@ -212,6 +212,19 @@ body {
     pointer-events: none;
 }
 
+.profile #avatar {
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-light);
+}
+
 .profile .edit-profile {
     width: 30px;
     height: 30px;
@@ -219,6 +232,26 @@ body {
     border-radius: 50%;
     bottom: 0;
     right: 40%;
+}
+
+.edit-profile-holder #file {
+    display: none;
+}
+
+.edit-profile-holder #file::-webkit-file-upload-button {
+    display: none;
+}
+
+.edit-profile-holder .file-upload {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 10%;
+    left: 40%;
 }
 
 
@@ -282,7 +315,6 @@ div.sucess-container {
 
 button.home-btn {
     background-color: var(--dark-300);
-
 }
 
 .h-100vh {
@@ -314,17 +346,19 @@ div.main-cart {
     left: 0;
     z-index: 1030;
 }
-.searchplace:focus{
-    background-color:var(--card-background);
-    outline:0;
+
+.searchplace:focus {
+    background-color: var(--card-background);
+    outline: 0;
     border: 0;
-    box-shadow:none;
+    box-shadow: none;
 }
-button.searchplacebutton{
+
+button.searchplacebutton {
     display: flex;
-    border-radius: 200px; 
+    border-radius: 200px;
     width: 20px;
-     height: 30px;
-      align-items: center;
-      justify-content: center;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
 }

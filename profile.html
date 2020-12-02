@@ -27,12 +27,14 @@
 
     <div class="profile text-center py-4">
         <div class="rounded-image position-relative">
-            <img src="assets/img/avatar.webp" class="img-fluid rounded-circle w-25" alt="">
-            <button class="edit-profile position-absolute">
+            <div id="avatar" class="rounded-circle">
+                <span></span>
+            </div>
+            <button class="edit-profile position-absolute" onclick="location.href = 'edit-profile.html'">
                 <i class="mdi mdi-lead-pencil"></i>
             </button>
         </div>
-        <p class="h5 text-primary-light font-weight-bold mt-4">Abhijit Das</p>
+        <p class="h5 text-primary-light font-weight-bold mt-4" data-name>Abhijit Das</p>
 
     </div>
     <div class="profile-actions list container mt-2 mb-5 pb-5">

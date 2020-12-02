@@ -2,6 +2,8 @@ let currentPage = location.href,
     passwordInput = document.querySelector('#pwd'),
     loadingPage = document.querySelector('#loading-screen'),
     backButton = document.querySelector('[data-back]'),
+    showAvatar = document.querySelector('#avatar span'),
+    getAvatar = document.querySelector('[data-name]'),
     showPass = document.querySelector('#showPass');
 setTimeout(() => {
     if (loadingPage) {
@@ -37,3 +39,8 @@ if (backButton) {
         history.back(-1);
     })
 }
+
+let nameArr = getAvatar.innerText.split(" "),
+    fname = nameArr[0].charAt(0),
+    lname = nameArr[1].charAt(0);
+showAvatar.innerText = `${fname}${lname}`;
