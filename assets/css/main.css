@@ -362,3 +362,9 @@ button.searchplacebutton {
     align-items: center;
     justify-content: center;
 }
+.vh80{
+    height: 80vh !important;
+}
+.fs-6rem{
+    font-size: 6rem;
+}
